@@ -1,6 +1,6 @@
 Test project
 
-Api endpoint - ~host~/api
+Api endpoint - %host%/api
 
 Accepts JSON-RPC via post request
 
