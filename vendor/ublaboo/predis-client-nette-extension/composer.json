@@ -1,0 +1,26 @@
+{
+	"name": "ublaboo/predis-client-nette-extension",
+	"type": "library",
+	"description": "A Nette extension for the AWS SDK for PHP http://aws.amazon.com/sdkforphp/",
+	"keywords": ["aws", "sdk", "amazon", "php", "nette", "extension", "di"],
+	"homepage": "https://github.com/ublaboo/predis-client-nette-extension",
+	"license": ["MIT"],
+	"support": {
+		"issues": "https://github.com/ublaboo/predis-client-nette-extension/issues"
+	},
+	"authors": [
+		{
+			"name": "Pavel Janda",
+			"homepage": "http://paveljanda.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Ublaboo\\PredisClientNetteExtension\\": "src/"
+		}
+	},
+	"require": {
+		"nette/di" : "^2.3|^2.4",
+		"predis/predis" : "^1.1"
+	}
+}
